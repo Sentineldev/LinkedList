@@ -1,0 +1,35 @@
+<-------------Lista simple metodos---------------->
+Vacia()
+Insertar_primero()
+Eliminar_primero()
+Ultimo()
+Penultimo()
+insertar_ultimo()
+eliminar_ultimo()
+buscar_nodo()
+contar_nodos()
+contar_nodos_iguales_a()
+mostrar_todos_nodos()
+obtener_nodo()
+mostrar_nodo_especifico()
+
+<----------------Lista Doble--------------->
+
+Vacia()
+insertar_primero()
+eliminar_primero()
+ultimo()
+Penultimo()
+insertar_ultimo()
+eliminar_ultimo()
+buscar_nodo()
+contar_nodos()
+contar_nodos_iguales_a()
+mostrar_todos_nodos()
+obtener_nodo()
+mostrar_nodo_especifico()
+eliminar_nodo_especifico()
+modificar_nodo_especifico()
+
+
+

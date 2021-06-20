@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="listas_style.css">
+</head>
+<body>
+    <header>Listas enlazadas</header>
+    <section class="simple">
+        <h2 class="simple-header">Lista Simple</h2>
+        <div class="opciones">
+
+            <div class="contenedor">
+                <input type="text" id="agregar_dato" class="input" >
+                <label for="cabeza_agregar" class="label-radio">
+                    <input type="radio" name="opcion_agregar" id="cabeza_agregar">
+                    Al comienzo
+                </label>
+                <label for="cola_agregar" class="label-radio">
+                    <input type="radio" name="opcion_agregar" id="cola_agregar">
+                    Al fin
+                </label>
+                <button type="submit" id="boton_agregar" class="boton">Agregar</button>
+            </div>
+            
+            <div class="contenedor">
+                <label for="cabeza_eliminar" class="label-radio">
+                    <input type="radio" name="opcion_eliminar" id="cabeza_eliminar">
+                    Al comienzo
+                </label>
+                <label for="cola_eliminar" class="label-radio">
+                    <input type="radio" name="opcion_eliminar" id="cola_eliminar">
+                    Al fin
+                </label>
+                <button type="submit" id="boton_eliminar" class="boton">Eliminar</button>
+            </div>
+            <div class="contenedor">
+                <input type="text" id="buscar_dato" class="input" >
+                <button type="submit" id="boton_buscar" class="boton">Buscar</button>
+            </div>
+
+        </div>
+        <h3 class="contador_nodos" id="contador_nodos_simple">Total nodos: 0</h3>
+        <div class="contenedor-nodos"></div>
+    </section>
+    <section class="lista_doble">
+        <h2 class="lista_doble_header">Lista Doble</h2>
+        <div class="opciones">
+
+            <div class="contenedor">
+                <input type="text" id="agregar_dato_doble" class="input" >
+                <label for="cabeza_agregar_doble" class="label-radio">
+                    <input type="radio" name="opcion_agregar_doble" id="cabeza_agregar_doble">
+                    Al comienzo
+                </label>
+                <label for="cola_agregar_doble" class="label-radio">
+                    <input type="radio" name="opcion_agregar_doble" id="cola_agregar_doble">
+                    Al fin
+                </label>
+                <button type="submit" id="boton_agregar_doble" class="boton">Agregar</button>
+            </div>
+            
+            <div class="contenedor">
+                <label for="cabeza_eliminar_doble" class="label-radio">
+                    <input type="radio" name="opcion_eliminar_doble" id="cabeza_eliminar_doble">
+                    Al comienzo
+                </label>
+                <label for="cola_eliminar_doble" class="label-radio">
+                    <input type="radio" name="opcion_eliminar_doble" id="cola_eliminar_doble">
+                    Al fin
+                </label>
+                <button type="submit" id="boton_eliminar_doble" class="boton">Eliminar</button>
+            </div>
+            <div class="contenedor">
+                <input type="text" id="buscar_dato_doble" class="input" >
+                <button type="submit" id="boton_buscar_doble" class="boton">Buscar</button>
+            </div>
+            <div class="contenedor">
+                <input type="text" id="eliminar_especifico" class="input">
+                <button type="submit" id="boton_eliminar_especifico" class="boton">Eliminar</button>
+            </div>
+            <div class="contenedor">
+                <label for="modificar_especifico" class="modificar_label">Valor</label>
+                <input type="text" id="modificar_especifico" class="input">
+                <label for="modificar_nuevo_valor" class="modificar_label">Nuevo valor</label>
+                <input type="text" name="" id="modificar_nuevo_valor" class="input">
+                <button type="submit" id="boton_modificar" class="boton">Modificar</button>
+            </div>
+        </div>
+        <h3 class="contador_nodos" id="contador_nodos_dobles">Total nodos: 0</h3>
+        <div class="contenedor_nodos_doble"></div>
+    </section>
+</body>
+<script src="lista_simple.js"></script>
+<script src="lista_doble.js"></script>
+</html>
